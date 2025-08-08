@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+
+:root {
+    --cor1: #f7c706;
+    --cor2: #86e929ee;
+    --txt: #aa2e1d;
+    --fundo: #f2e3d5;
+    --botao: #e6f112;
+    --corpof: "Chocolate Classical Sans", serif;
+    --titulof: "Rakkas", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--corpof);
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--txt);
+    line-height: 1.6;
+}
+
+main {
+    align-items: center;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 28px;
+}
+
+img {
+    max-width: 90%;
+}
+
+header {
+    background: var(--cor1);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #e60909;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+}
+
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+.cta-footer {
+ color: rgb(232, 159, 25);
